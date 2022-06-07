@@ -9,12 +9,14 @@ import { TopbarComponent } from './components/topbar/topbar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { ScoreComponent } from './pages/score/score.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopbarComponent,
-    HomeComponent
+    HomeComponent,
+    ScoreComponent
   ],
   imports: [
     BrowserModule,
